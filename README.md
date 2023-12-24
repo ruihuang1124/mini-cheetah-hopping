@@ -1,6 +1,6 @@
 # mini-cheetah-hopping
 
-See `ExampleMIP.m` for an example of the MIP formulation that presented in *3D Hopping in Discontinuous Terrain Using Impulse Planning with
+See `ExampleMIP.m` for an example of the MIP formulation presented in *3D Hopping in Discontinuous Terrain Using Impulse Planning with
 Mixed-Integer Strategies*. 
 
 After running `ExampleMIP.m`, run `SmoothingNLP.m` to solve for a smooth solution near the MIP solution. The script also includes a visualization of the trajectory.
