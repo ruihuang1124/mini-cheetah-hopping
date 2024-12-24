@@ -1,4 +1,4 @@
-function [nA,nb] = normalize(A, b)
+function [nA,nb] = mpt_normalize(A, b)
 % NORMALIZE Return normalized rows of the matrix A
 %
 % n = normalize(A, b)

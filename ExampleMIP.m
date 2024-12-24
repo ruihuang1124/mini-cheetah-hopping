@@ -1,5 +1,6 @@
 %% ExampleMIP.m
 clc; clear; 
+addpath(genpath([pwd() '/gurobi1200']));%,'-end');
 
 %% physics
 g = [0;0;0; 0;0;9.8];

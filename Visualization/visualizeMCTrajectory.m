@@ -2,8 +2,10 @@ function q = visualizeMCTrajectory(data, option, varargin)
 % eul-> ZYX euler anlges 3xn matrix
 % pos-> Position of CoM 3xn matrix
 % qdummy-> represents either joint angle or foot placement
-% robot = importrobot("/home/ray/software/mini-cheetah-hopping/Visualization/urdf/MiniCheetah/mini_cheetah_simple_v2.urdf");
-robot = importrobot("/home/ray/software/mini-cheetah-hopping/Visualization/urdf/MiniCheetah/mini_cheetah_mesh.urdf");
+% robot = importrobot("mini_cheetah_simple_correctedInertia.urdf");
+% robot = importrobot("/home/ray/software/Multiple-Shooting-DDP/examples/SRBQuadruped/QuadrupedGraphics/urdf/mini_cheetah_simple_correctedInertia.urdf");
+robot = importrobot("/home/ray/software/mini-cheetah-hopping/Visualization/urdf/MiniCheetah/mini_cheetah_simple_v2.urdf");
+% robot = importrobot("/home/ray/software/mini-cheetah-hopping/Visualization/urdf/MiniCheetah/mini_cheetah_mesh.urdf");
 % robot = importrobot("mini_cheetah_mesh.urdf");
 robot = float_base_quadruped(robot);
 robot.DataFormat = 'column';
