@@ -36,8 +36,8 @@ trajname = 'Example';
 load(['Trajectories/',trajname,'TrajectoryForNLP.mat'])
 use_grfs = true;
 add_trot = false;
-hold = true;
-assert(~(add_trot == true && hold == true));
+hold_ = true;
+assert(~(add_trot == true && hold_ == true));
 if ~use_grfs
     trajname = [trajname,'NoGRFs'];
 end
